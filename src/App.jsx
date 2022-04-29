@@ -35,6 +35,7 @@ function App() {
   return (
     <div className="container mx-auto mt-20">
       <Header />
+      <p>hola solo soy un push de prueba</p>
       <div className="container  mt-12 flex flex-col md:flex-row"> 
         <Form 
           addClient={addClient}
